@@ -5,7 +5,7 @@ const expect = require('expect');
     const browser = await chromium.launch()
     const context = await browser.newContext()
     const page = await context.newPage()
-    await page.goto('https://www.bahiana.edu.br/')
+    await page.goto('https://www.edu/')
 
     
 })
