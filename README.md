@@ -1,33 +1,44 @@
 # PlayProject 
  ____
  ## Sobre o projeto
- Projeto selenide trata-se de um curso realizado pela QA Ninja com tutoria de Fernando Papito, que ensina como automatizar testes end-to-end em java utilizando a api do selenide que é um framework para automação de teste desenvolvida por Selenium webdriver que traz as seguintes vantagens:
- * API fluente concisa para testes 
- * Suporte Ajax para testes estáveis  
- * Seletores poderosos     
- * Configuração simples
-
+ Projeto escrito com playwright, trata-se de um compilado de exemplos de cenários adquiridos através do curso Dominando playwright lecionado por Alan Voigt na Udemy, que ensina como automatizar testes end-to-end em js;
+ As assertion corresponde ao expect que é uma biblioteca
+ 
 ## Ambiente
-- [x] jdk 1.8
+- Node.js
+- IDE
 
-O JDK 8 tem a maior compatibilidade com o Selenium e Appium
-- [x] IntelliJ IDEA
-- [x] Docker Toolbox 
-- [x] Kitematic
+## Comandos
+- Para instalar versão mais recente:
+`npm init playwright@latest`
+
+- Iniciando um projeto:
+`npm init -y para criar arquivo package.json`
+`npm install playwright`
+`npm install expect`
+
+- Para rodar o script:
+`npm test`
+`node nome_do_arquivo.js`
+- Para executar n testes de n arquivos:
+`npx playwright`
+- Para executar um arquivo especifico:
+`npx playwright test/nomedoarquivo.js`
+- Para executar uma função test dentro do script:
+`npx playwright test -g "nome do cenario"`
+- Para instalar jest reporter
+`npm install jest-html-reporters`
+
+
+- Playwright inspector - gravando ações na tela e gerando código é habilitado através do comando:
+`npx playwright codegen url site`
+
 
 ## Plugins
-* TestNG
-* Junit
-* Maven dependency
-* Scoop
-* Allure
+* Jest
+* Inspector playwright
 ___
-## Reportes
 
-* ### Relatório de execução de teste com allure 
-![report-fail](https://github.com/yasminjulia/Selenide-project/blob/master/assets-readme/Screenshot_1.png)
-
-* ### Reporte com screenshot anexado
-![report-fail](https://github.com/yasminjulia/Selenide-project/blob/master/assets-readme/allure2.png)
-
+ * Documentação: 
+ https://playwright.dev/
 #  
