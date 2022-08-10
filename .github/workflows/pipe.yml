@@ -1,0 +1,9 @@
+name: execução de testes 
+
+on:
+push:
+branches: [master]
+pull_requests: 
+branches: [master] 
+
+
