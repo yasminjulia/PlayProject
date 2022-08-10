@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "mdsjulha",
   "license": "ISC",
   "dependencies": {
     "expect": "^28.1.0",
+    "jest-html-reporters": "^3.0.10",
+    "jest-playwright-preset": "^1.7.0",
     "playwright": "^1.21.1"
   }
 }

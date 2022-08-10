@@ -1,6 +1,6 @@
 const config = {
   use: {
-    baseURL: 'https://react-redux.realworld.io',
+    baseURL: 'https://bahiana.cwww.dev/',
     // browserName: 'webkit',
     headless: false,
     // viewport: { width: 1280, height: 720 },
@@ -22,13 +22,13 @@ const config = {
         viewport: { width: 600, height: 800 },
       },
     },
-    {
+   /* {
       name: 'Chromium_1280x720',
       use: {
         browserName: 'chromium',
         viewport: { width: 1280, height: 720 },
       },
-    },
+    },*/
     {
       name: 'webkit',
       use: { 
