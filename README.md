@@ -41,4 +41,5 @@ ___
 
  * Documentação: 
  https://playwright.dev/
+ https://jestjs.io/pt-BR/docs/getting-started
 #  
