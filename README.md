@@ -40,6 +40,6 @@
 ___
 
  * Documentação: 
- https://playwright.dev/
- https://jestjs.io/pt-BR/docs/getting-started
+ - https://playwright.dev/
+ - https://jestjs.io/pt-BR/docs/getting-started
 #  
